@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Article from './View/Components/Article';
 function App() {
   return (
-    <div className="App">
-      <p className='text-5xl'>hello </p>{window.innerWidth}
+    <div className="App h-screen">
+      <Article/>
     </div>
   );
 }
